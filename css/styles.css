@@ -28,9 +28,14 @@ p{
     color: #8B8383;
 }
 
+article a{
+    color: #8B8383;
+    size: 14px;
+}
+
 /*Logo*/
 #logo{
-    margin: 10px 0 0 0;
+    margin: 10px;
 }
 
 
@@ -93,11 +98,11 @@ p{
     text-align: center;
     line-height: 380px;
     font-family: "Varela Round", sans-serif;
-    background-color: rgba(255, 255, 255, .3);
+    
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
 }
 
-.slide:hover + .nav label { opacity: 0.5; }
+.slide:hover + .nav label { opacity: 0; }
 
 .nav label:hover { opacity: 1; }
 
